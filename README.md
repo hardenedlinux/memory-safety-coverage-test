@@ -1,3 +1,4 @@
+## Meory safety coverage tests
 
 |Bug type     | Sanitizers | Fil-C             | Clang bounds-safety |
 |:-----------:|:-----------------:|:-----------------:|:-------------------:|
@@ -10,3 +11,6 @@
 |6-use-after-free.c | YES (ASAN)        | YES               | N/A                 |
 |7-pointer-races.c | YES (ASAN/TSAN)    | Partially               | N/A                 |
 |8-data-races.c | YES (TSAN)        | NO               | N/A                 |
+|9-stack-use-after-return.c | YES (ASAN)        | NO               | N/A                 |
+
+* The Path to Memory Safety is Inevitable <https://hardenedlinux.org/blog/2025-05-07-the-path-to-memory-safety-is-inevitable/>
